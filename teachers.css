@@ -1,0 +1,136 @@
+.tea_top {
+    margin-top: 170px;
+    display: flex;
+}
+
+.tea_img {
+    padding-right: 70px;
+}
+
+.tea_title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+
+.tea_bottom {
+    margin-top: 110px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.tea_box {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.bt-name {
+    padding: 40px 0 15px 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 140%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.bt-info {
+    padding-bottom: 30px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    text-align: center;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+
+.bt_link{
+    color: #FFFFFF;
+    padding: 10px 30px;
+    background: #000;
+    border: 1px solid #FFFFFF;
+    border-radius: 50px;
+    transition: 500ms;
+}
+.bt_link:hover{
+    color: #000;
+    background: #FFFFFF;
+}
+
+/* responsive */
+@media(max-width:810px){
+    .tea_title{
+        font-size: 44px;
+    }
+
+    .tea_bottom{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media(max-width:750px){
+    .tea_top{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .tea_img{
+        padding: 0;
+    }
+    .bt-name{
+        padding: 30px 0 10px 0;
+    }
+
+    .bt-info{
+        padding-bottom: 20px;
+    }
+}
+
+@media(max-width:640px){
+    .bt-name{
+        font-size: 20px;
+    }
+    .bt-info{
+        font-size: 14px;
+    }
+     .tea_title{
+        font-size: 30px;
+     }
+     .tea_box{
+        padding-bottom: 20px;
+     }
+
+     .bt_img{
+        width: 100%;
+     }
+}
+
+
+@media(max-width:460px){
+    .tea_bottom{
+        margin-top: 60px;
+    }
+     .tea_box{
+        padding-top: 15px;
+     }
+}
+@media(max-width:350px){
+    .tea_title{
+        font-size: 20px;
+     }
+     .bt-name{
+        padding: 20px 0 10px 0;
+    }
+
+    .bt-info{
+        padding-bottom: 10px;
+    }
+}
